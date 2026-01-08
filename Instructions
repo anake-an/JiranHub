@@ -1,0 +1,34 @@
+# JiranHub Instructions to run locally
+
+## Group 7
+
+## JiranHub Web Application
+
+1. **Start XAMPP**
+
+   - Open XAMPP Control Panel.
+   - Start **Apache** and **MySQL**.
+
+2. **Setup Database**
+
+   - Go to [http://localhost/phpmyadmin](http://localhost/phpmyadmin).
+   - Click **Import** tab.
+   - Choose `jiranhub_db.sql` and click **Import**.
+   - _(Database `jiranhub_db` will be created automatically)_.
+
+3. **Run Website**
+
+   - Open this folder in Terminal / CMD.
+   - Run: `php -S localhost:8000`
+   - Open browser: [http://localhost:8000](http://localhost:8000)
+
+## 4. Login Credentials
+
+| Role                | Email                 | Password         |
+| :------------------ | :-------------------- | :--------------- |
+| **SuperAdmin**      | `admin@jiranhub.com`  | `Admin@1234`     |
+| **Organizer (AJK)** | `faris@gmail.com`     | `Faris@1234`     |
+| **Resident**        | `saifullah@gmail.com` | `Saifullah@1234` |
+| **Resident**        | `meiling@gmail.com`   | `Meiling@1234`   |
+| **Resident**        | `muthu@gmail.com`     | `Muthu@1234`     |
+| **Scammer**         | `john@spam.com`       | `John@1234`      |

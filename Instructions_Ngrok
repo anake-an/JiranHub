@@ -1,0 +1,22 @@
+# How to Share Website Online (Ngrok)
+
+1. **Get Ngrok**
+
+   - Sign up at [dashboard.ngrok.com](https://dashboard.ngrok.com/signup).
+   - Download for Windows and unzip it.
+
+2. **Connect Account**
+
+   - Click `ngrok.exe`.
+   - Paste your Authtoken (from dashboard):
+   - `ngrok config add-authtoken YOUR_TOKEN_HERE`
+
+3. **Share Website**
+
+   - Make sure your website is running (`php -S localhost:8000`).
+   - Run this command in ngrok:
+   - `ngrok http 8000`
+
+4. **Done!**
+   - Copy the link ending in `.ngrok-free.app`.
+   - Send it to anyone (https://republishable-nondisruptingly-raymundo.ngrok-free.dev/index.php).

@@ -1,35 +1,23 @@
 # --- 1. Ignore Documentation ---
-# Prevents uploading your assignment instructions
 *.pdf
 *.docx
 *.doc
 
-# --- 2. Ignore User Uploads ---
-# We ignore the files inside these folders...
-uploads/banners/*
-uploads/payments/*
-uploads/profiles/*
-
-# --- 3. Exceptions (Keep these!) ---
-# ...BUT we force Git to keep these specific default files
-# so the website doesn't break for others.
-!uploads/profiles/default_user.png
-!uploads/index.php
-
-# --- 4. System Files ---
+# --- 2. System Files ---
 .DS_Store
 Thumbs.db
 
-# Ignore all files in these folders...
+# --- 3. Ignore User Uploads (BUT keep folders) ---
+# Ignore everything inside these folders...
 uploads/banners/*
 uploads/payments/*
 uploads/profiles/*
 
-# ...EXCEPT the .gitkeep file (so the folder stays)
+# ...Except the keep files (so folders stay on GitHub)
 !uploads/banners/.gitkeep
 !uploads/payments/.gitkeep
 !uploads/profiles/.gitkeep
 
-# Also keep the default images if you have them
+# ...And except the default profile picture
 !uploads/profiles/default_user.png
 !assets/images/default.jpg

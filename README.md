@@ -41,7 +41,7 @@ It demonstrates a complete MVC-style architecture using native PHP, featuring Ro
 
 | User Landing Page | Admin Dashboard |
 |:---:|:---:|
-| <img src="assets/images/preview_home.png" width="100%" alt="Landing Page"> | <img src="assets/images/preview_admin.png" width="100%" alt="Admin Dashboard"> |
+| <img src="assets/images/preview_landingpage.png" width="auto" height="300px" alt="Landing Page"> | <img src="assets/images/preview_admin.png" width="auto" height="300px" alt="Admin Dashboard"> |
 
 ---
 
